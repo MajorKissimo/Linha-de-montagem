@@ -8,3 +8,5 @@ uses: actions/checkout@v3
 
 -name: 2.Estação de build (montagem)
 run: echo "construindo o projeto... verificando se todas as peças se encaixam!"
+-name: 3. Estação de Teste (Controle de Qualidade)
+run: echo"Rodando os testes automatizados... Verificando se a porta abre e fecha!"
